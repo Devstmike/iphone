@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    outline: none;
+    border: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+}
+
+
+header .column1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .column2 ul{
+    display: flex;
+}
+
+
+header .column2 ul li a{
+    padding: 25px;
+    color: black;
+}
+
+header .column1 .search {
+    border: 1px solid rgb(197, 180, 180);
+    padding: 10px;
+    margin-left: 20px ;
+}
+
+header .column3 i {
+    padding: 5px;
+}
+
+
+
+
+/* sect1 css*/
+.sec1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+    background-color: black;
+    color: white;
+}
+
+.sec1 .column1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.sec1 .column2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.sec1 .column3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.sec1 .column1 > *{
+    margin-right: 30px;
+    background-color: black;
+    color:  white;
+    text-transform: capitalize;
+}
+
+
+
+.sec1 .column3 > *{
+    margin-right: 50px;
+}
+
+.sec1 .column3 > * > i{
+    margin-right: 5px;
+}
+
+.sec1 .column3 > *:last-child{
+    background-color: rgb(112, 179, 112);
+    border-radius: 48%;
+    padding: 10px;
+    margin-left: -40px;
+}
+
+
+.sec1 .column2 .image img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.sec1 .column2 .image{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+
+/* 
+https://www.figma.com/file/zNQBY6JQIZlh9SAPMZV9h3/Ecommerce-UI-Kit-(Community)?type=design&node-id=125-20972&mode=design&t=zzvLaveBtBrrH2kD-0 */
